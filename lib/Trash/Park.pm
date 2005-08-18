@@ -15,7 +15,7 @@ use DBI;
 
 use vars qw($VERSION);
 
-$VERSION = "0.01";
+$VERSION = "0.03";
 
 ###########################################
 sub new {
@@ -415,7 +415,7 @@ format (in fact, it's a DBD::CSV database):
 C<trash()> puts a file or a directory into the trash can.
 Note that if you trash a directory, all files are moved to the trash
 recursively. All files are stored under their full path name. However,
-No hierarchical directory or link information gets preserved, only 
+no hierarchical directory or link information gets preserved, only 
 single (regular) files are moved, directories and symbolic link
 get deleted.
 

@@ -16,9 +16,9 @@ use Pod::Usage;
 
 use vars qw($CVSVERSION);
 
-$CVSVERSION = '$Revision: 1.2 $';
+$CVSVERSION = '$Revision: 1.3 $';
 
-getopts("VLvde:ixlhs:p:", \my %opts);
+getopts("VLvd:e:ixlhs:p:", \my %opts);
 
 my $log_level = $INFO;
 $log_level = $DEBUG if $opts{v};

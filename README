@@ -1,5 +1,5 @@
 ######################################################################
-    Trash::Park 0.01
+    Trash::Park 0.03
 ######################################################################
 
 NAME
@@ -61,7 +61,7 @@ METHODS
         "trash()" puts a file or a directory into the trash can. Note that
         if you trash a directory, all files are moved to the trash
         recursively. All files are stored under their full path name.
-        However, No hierarchical directory or link information gets
+        However, no hierarchical directory or link information gets
         preserved, only single (regular) files are moved, directories and
         symbolic link get deleted.
 
